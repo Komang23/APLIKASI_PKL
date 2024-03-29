@@ -1,3 +1,10 @@
+<!-- PHP -->
+<?php
+require "function.php";
+require "cek-login.php";
+?>
+
+<!-- PHP -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,7 +59,7 @@
                     <a href="login-user.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
+                <a href="logout.php" class="nav-link">Logout</a>
                 </li>
             </ul>
 
@@ -268,10 +275,10 @@
         <div class="content-wrapper">
             <!-- Content Header (Dashboard Admin) -->
             <div class="content-header">
-                <div class="container-fluid">
+                <div class="container-fluid">   
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Dashboard Admin</h1>
+                            <h1 class="m-0">Dashboard Member</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">

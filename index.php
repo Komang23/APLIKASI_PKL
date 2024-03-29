@@ -1,11 +1,10 @@
 <!-- PHP -->
 <?php
 require "function.php";
-require "cek.php";
+require "cek-login.php";
 ?>
 
 <!-- PHP -->
-
 
 <!DOCTYPE html>
 <html lang="en">
